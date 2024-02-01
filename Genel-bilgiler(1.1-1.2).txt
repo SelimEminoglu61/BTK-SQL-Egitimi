@@ -1,0 +1,29 @@
+SQL(Structured Query Language)
+Yapısal Sorgulama Dili
+
+Bir veritabanındaki verileri sorguladığımız bir çeşit kodlama dilidir.
+
+Veritabanı--Temel anlamda içerisinde belli bir formatta sorgulanabilir şekilde veri barındıran yazılımlardır.
+
+Verileri listeler halinde tablo ve satırlarda tutan her yapı aslında kendi çapında veritabanıdır.
+
+Veri Tabanı nelerden oluşur?
+1-satır
+2-sütun
+3-index
+4-tablo
+
+Veritabanı Sunucu--Bir yazılımdır.Network üzerinde bir porttan sistemi dinler ve gelen komutlara göre istenilen veriyi gönderir.
+SQL server,MySQL,PostgreSQL,Oracle gibi sistemler veritabanı sunucusudur.Access,Excel gibi yapılar sunucu değildir.
+
+İstemci ile veritabanı sunucusu arasında öncelikle bir bağlantı durumu kontrol edilir.İstemci bağlanmak için bilgilerini
+veritabanı sunucusuna kontrol ettirir.Olumlu ise sonrasında istemci ile sunucu arasındaki iletişime göre veri akışı sağlanır.
+
+
+İlişkisel Veritabanı(RDMS)--Tablolar halinde tutulan farklı tablolar arasındaki ilişkiyi tarif ederler.
+Burada şehir,isimler veya mevkiler gibi farklı değerler sağlayan tablolar arası ilişki hakkında bilgi verilir.
+Tekrar eden verileri tekilleştirmek amacıyla yapılandırılan veritabanı sistemleridir.Örnek olarak sürekli mağazaya gelen
+aynı kişinin bilgilerinin değişmemesi gerekir ve zaman kaybı olmaması için isim,tc gibi bilgilerin tek seferde kullanılıp
+sonrasında önceki veriler aracılığıyla işlemler yapılması olabilir.
+
+Çoktan seçmeli seçeneklerin veritabanında numaralar ile karşılanması büyük avantaj sağlar.
